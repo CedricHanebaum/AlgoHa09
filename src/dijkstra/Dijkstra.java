@@ -28,7 +28,6 @@ public class Dijkstra {
 		}
 
 		System.out.println(Arrays.toString(distance) + "|" + Arrays.toString(predecessors));
-//		System.out.println("Scheiß auf die Ausgabe. Ist halt richtig so!");
 	}
 
 	private static void printBody(int[] distance, int[] predecessors, int start) {
