@@ -6,6 +6,10 @@ public class Dijkstra {
 
 	public static int START = 1;
 
+	/**
+	 * Führt den Dijkstra Algorithmus für den Übergebenen Graphen aus und gibt das Ergibnis, samt Zwischenschritten in einer wahnsinnig detailierten Tabelle aus. Im Ernst, die Ausgabe ist komplizierter als der Algorithmus selbst ;)
+	 * @param kanten Die Kantenliste des Graphen, mit dem der Algoritmus ausgeführt werden soll.
+	 */
 	public static void printDijkstra(int[] kanten) {
 		int[] distance = new int[kanten[0] + 1];
 		int[] predecessors = new int[kanten[0] + 1];
